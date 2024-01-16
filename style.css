@@ -28,7 +28,7 @@ nav{
 .container .logo img{
     margin-left: 20px;
     width: 100px;
-    filter: drop-shadow(2px 2px 2px white); /*for shadow*/
+    filter: drop-shadow(6px 6px 6px white); /*for shadow*/
 }
 .container .links a{
     color: white; 
