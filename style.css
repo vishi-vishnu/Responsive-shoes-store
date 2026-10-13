@@ -136,14 +136,26 @@ section .main-content{
 }
 
 @media(max-width:800px){
-    content{
-        display: flex;
-        width: 100%;
+    body{
+        height: auto;
+    }
+    section{
+        height: auto;
+    }
+    section .content{
         flex-direction: column-reverse;
+        justify-content: center;
+        gap: 24px;
+        padding: 24px 20px 48px;
     }
 
-    .main-content{
-        margin: 0 10px;
+    section .main-content{
+        margin: 0 auto;
+    }
+
+    .content .image img{
+        margin-right: 0;
+        max-width: 300px;
     }
 }
 
@@ -158,7 +170,8 @@ section .main-content{
         display: none;
     }
     .image img{
-        width: 100px;
-        margin-right: none; 
+        width: 100%;
+        max-width: 240px;
+        margin-right: 0;
     }
 }
